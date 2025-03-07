@@ -26,6 +26,7 @@ if (isLoggedIn) {
 
 console.log("User Message:", userMessage);
 
+/*     Switch Case    */
 let userType = "subscriber";
 let userCategory;
 
@@ -44,3 +45,10 @@ switch (userType) {
 }
 
 console.log("User Category:", userCategory);
+
+/*     Teernary Operator    */
+let isAuthenticated = true;
+
+let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
+
+console.log("Authentication Status:", authenticationStatus);
