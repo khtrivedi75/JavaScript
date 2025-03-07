@@ -46,7 +46,7 @@ switch (userType) {
 
 console.log("User Category:", userCategory);
 
-/*     Teernary Operator    */
+/*     Ternary Operator    */
 let isAuthenticated = true;
 
 let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
